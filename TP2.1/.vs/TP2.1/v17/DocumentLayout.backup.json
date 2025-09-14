@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\acadl\\OneDrive\\Desktop\\.NET\\TP\\TP2\\TP2\\TP2.1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38596DF2-05E4-48FC-9F4C-D3145A0D2999}|CreateCity\\CreateCity.csproj|c:\\users\\acadl\\onedrive\\desktop\\.net\\tp\\tp2\\tp2\\tp2.1\\createcity\\pages\\citymanager.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38596DF2-05E4-48FC-9F4C-D3145A0D2999}|CreateCity\\CreateCity.csproj|solutionrelative:createcity\\pages\\citymanager.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38596DF2-05E4-48FC-9F4C-D3145A0D2999}|CreateCity\\CreateCity.csproj|c:\\users\\acadl\\onedrive\\desktop\\.net\\tp\\tp2\\tp2\\tp2.1\\createcity\\models\\cityname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38596DF2-05E4-48FC-9F4C-D3145A0D2999}|CreateCity\\CreateCity.csproj|solutionrelative:createcity\\models\\cityname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38596DF2-05E4-48FC-9F4C-D3145A0D2999}|CreateCity\\CreateCity.csproj|c:\\users\\acadl\\onedrive\\desktop\\.net\\tp\\tp2\\tp2\\tp2.1\\createcity\\pages\\citymanager.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38596DF2-05E4-48FC-9F4C-D3145A0D2999}|CreateCity\\CreateCity.csproj|solutionrelative:createcity\\pages\\citymanager.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CityName.cs",
+              "DocumentMoniker": "C:\\Users\\acadl\\OneDrive\\Desktop\\.NET\\TP\\TP2\\TP2\\TP2.1\\CreateCity\\Models\\CityName.cs",
+              "RelativeDocumentMoniker": "CreateCity\\Models\\CityName.cs",
+              "ToolTip": "C:\\Users\\acadl\\OneDrive\\Desktop\\.NET\\TP\\TP2\\TP2\\TP2.1\\CreateCity\\Models\\CityName.cs",
+              "RelativeToolTip": "CreateCity\\Models\\CityName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T17:38:20.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CityManager.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\acadl\\OneDrive\\Desktop\\.NET\\TP\\TP2\\TP2\\TP2.1\\CreateCity\\Pages\\CityManager.cshtml.cs",
+              "RelativeDocumentMoniker": "CreateCity\\Pages\\CityManager.cshtml.cs",
+              "ToolTip": "C:\\Users\\acadl\\OneDrive\\Desktop\\.NET\\TP\\TP2\\TP2\\TP2.1\\CreateCity\\Pages\\CityManager.cshtml.cs",
+              "RelativeToolTip": "CreateCity\\Pages\\CityManager.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T17:27:52.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CityManager.cshtml",
+              "DocumentMoniker": "C:\\Users\\acadl\\OneDrive\\Desktop\\.NET\\TP\\TP2\\TP2\\TP2.1\\CreateCity\\Pages\\CityManager.cshtml",
+              "RelativeDocumentMoniker": "CreateCity\\Pages\\CityManager.cshtml",
+              "ToolTip": "C:\\Users\\acadl\\OneDrive\\Desktop\\.NET\\TP\\TP2\\TP2\\TP2.1\\CreateCity\\Pages\\CityManager.cshtml",
+              "RelativeToolTip": "CreateCity\\Pages\\CityManager.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-14T17:19:07.852Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

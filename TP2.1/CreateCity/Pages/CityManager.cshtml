@@ -1,0 +1,38 @@
+﻿@page "/"
+@model CreateCity.Pages.CityManagerModel
+@{
+    ViewData["Title"] = "TP2.1 -  PageModel e Propriedade Vinculada";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Seja bem vindo ao meu TP2.1</h1>
+</div>
+
+<hr />
+
+<div class="w-auto flex items-center justify-center bg-gray-100">
+    <form method="post" class="bg-white p-6 rounded-xl shadow-lg w-full max-w-md">
+        <h2 class="text-2xl font-bold mb-4">Adicionar nome de cidade</h2>
+
+        <div class="mb-4">
+            <label asp-for="CityName.Nome" class="block text-left font-medium mb-1">Nome da cidade</label>
+            <input asp-for="CityName.Nome" type="text" placeholder="Insira o nome da cidade"
+                   class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                   required />
+        </div>
+
+        <button type="submit"
+                class="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition">
+            Adicionar
+        </button>
+
+
+    </form>
+</div>
+
+@if ((ModelState.IsValid) && (Model.CityName != null))
+{
+    <div class="alert alert-success mt-3">
+        Cidade adicionada: <strong>@Model.CityName</strong>
+    </div>
+}
