@@ -1,0 +1,41 @@
+﻿@page "/"
+@model CreateCity.Pages.CityManager.CreateCityModel
+@{
+    ViewData["Title"] = "TP2.4 - Validação Client-Side";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Seja bem-vindo ao meu TP2.4</h1>
+</div>
+
+<hr />
+
+<div class="w-auto flex items-center justify-center bg-gray-100">
+    <form method="post" class="bg-white p-6 rounded-xl shadow-lg w-full max-w-md">
+        <h2 class="text-2xl font-bold mb-4">Adicionar nome de cidade</h2>
+
+        <div class="mb-4">
+            <label asp-for="Input.CityName" class="block text-left font-medium mb-1"></label>
+            <input asp-for="Input.CityName" class="w-full border border-gray-300 rounded-lg px-3 py-2
+                                                  focus:outline-none focus:ring-2 focus:ring-blue-500" />
+            <span asp-validation-for="Input.CityName" class="text-red-600"></span>
+        </div>
+
+        <button type="submit"
+                class="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition">
+            Adicionar
+        </button>
+    </form>
+</div>
+
+@if (!string.IsNullOrEmpty(Model.Message))
+{
+    <div class="alert alert-success mt-3">
+        @Model.Message
+    </div>
+}
+
+@section Scripts {
+    <!-- Importa os scripts de validação -->
+    <partial name="_ValidationScriptsPartial" />
+}
