@@ -1,0 +1,22 @@
+﻿@page "/"
+@model CreateCity.Pages.CitiesListModel
+@{
+    ViewData["Title"] = "Lista de Cidades";
+}
+
+<div class="max-w-xl mx-auto mt-10 p-6 bg-white shadow-md rounded-lg">
+    <h2 class="text-2xl font-bold mb-6 text-gray-800">Lista de Cidades</h2>
+
+    <ul class="space-y-2">
+        @foreach (var city in Model.Cities)
+        {
+            <li>
+                <a asp-page="/CityDetails"
+                   asp-route-cityName="@city"
+                   class="text-blue-600 hover:underline font-medium">
+                    @city
+                </a>
+            </li>
+        }
+    </ul>
+</div>
